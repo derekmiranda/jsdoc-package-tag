@@ -4,7 +4,7 @@
 	"description": "JsDoc plugin to enable @package tags which display the name of a module's corresponding NPM package",
 	"main": "index.js",
 	"scripts": {
-		"docs": "node_modules/.bin/jsdoc -c .jsdoc.json"
+		"test": "jsdoc -c .jsdoc.json"
 	},
 	"keywords": [],
 	"author": "",
