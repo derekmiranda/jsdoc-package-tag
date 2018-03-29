@@ -20,8 +20,9 @@ function getNpmPackageName(dirPath) {
 			// no package.json found in directory
 			if (err.code === 'ENOENT') {
 				pkgNameCache[dirPath] = null
+			} else {
+				throw err
 			}
-			throw err
 		}
 	}
 	return pkgNameCache[dirPath]
