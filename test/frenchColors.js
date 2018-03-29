@@ -1,6 +1,7 @@
 /**
  * @module frenchColors
- * @package
+ * @description
+ * <h1>{@package}</h1>
  */
 
 /**
