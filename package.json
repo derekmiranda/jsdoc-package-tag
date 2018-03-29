@@ -1,0 +1,27 @@
+{
+	"name": "jsdoc-package-tag",
+	"version": "1.0.0",
+	"description": "JsDoc plugin to enable @package tags which display the name of a module's corresponding NPM package",
+	"main": "index.js",
+	"scripts": {
+		"docs": "node_modules/.bin/jsdoc -c .jsdoc.json",
+		"test": "ava"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"peerDependencies": {
+		"jsdoc": "^3.0.0"
+	},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"babel-eslint": "^8.2.2",
+		"eslint": "^4.16.0",
+		"eslint-config-prettier": "^2.9.0",
+		"eslint-plugin-prettier": "^2.5.0",
+		"prettier": "^1.10.2"
+	},
+	"dependencies": {
+		"bluebird": "^3.5.1"
+	}
+}
