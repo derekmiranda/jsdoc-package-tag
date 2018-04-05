@@ -4,7 +4,7 @@ JsDoc plugin to enable @npmpackage tags which display the name of a module's cor
 
 ## Installation
 
-Install with `npm install --save-dev jsdoc-package-tag`
+Install with `npm install --save-dev jsdoc-npmpackage-tag`
 
 Add this to your JsDoc configuration by placing it in your array of plugins:
 
@@ -13,7 +13,7 @@ Add this to your JsDoc configuration by placing it in your array of plugins:
 	...,
 	"plugins": [
 		...,
-		"node_modules/jsdoc-package-tag",
+		"node_modules/jsdoc-npmpackage-tag",
 		...,
 	],
 	...
