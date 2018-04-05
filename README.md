@@ -1,6 +1,6 @@
-# JsDoc @package Tag
+# JsDoc @npmpackage Tag
 
-JsDoc plugin to enable @package tags which display the name of a module's corresponding NPM package
+JsDoc plugin to enable @npmpackage tags which display the name of a module's corresponding NPM package
 
 ## Installation
 
@@ -22,16 +22,16 @@ Add this to your JsDoc configuration by placing it in your array of plugins:
 
 ## Usage
 
-Simply add the `@package` tag to your JsDoc comment to access a module's package name. DON'T add any values/parameters to this when inlined.
+Simply add the `@npmpackage` tag to your JsDoc comment to access a module's package name. DON'T add any values/parameters to this when inlined.
 
 ```js
 /**
  * @module frenchColors
- * @package
+ * @npmpackage
  * @description
  * 
- * This module is in this package: {@package}
+ * This module is in this package: {@npmpackage}
  */
 ```
 
-If the `frenchColors` module is part of the `international-colors` module, `@package` will be output as `international-colors`.
+If the `frenchColors` module is part of the `international-colors` module, `@npmpackage` will be output as `international-colors`.

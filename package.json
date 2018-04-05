@@ -1,7 +1,7 @@
 {
 	"name": "jsdoc-package-tag",
 	"version": "1.0.0",
-	"description": "JsDoc plugin to enable @package tags which display the name of a module's corresponding NPM package",
+	"description": "JsDoc plugin to enable @npmpackage tags which display the name of a module's corresponding NPM package",
 	"main": "src/index.js",
 	"scripts": {
 		"test": "node_modules/.bin/jsdoc -c .jsdoc.json"

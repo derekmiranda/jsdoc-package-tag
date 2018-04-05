@@ -1,7 +1,7 @@
 /**
  * @module frenchColors
  * @description
- * <h1>{@package}</h1>
+ * <h1>{@npmpackage}</h1>
  */
 
 /**
