@@ -9,7 +9,7 @@ exports.defineTags = function jsdocPackageTag(dictionary) {
 		// for block tags
 		onTagged: function(doclet, tag) {
 			const pkgName = findNpmPackageName(doclet.meta.path)
-			doclet.description = pkgName
+			doclet.npmpackage = pkgName
 		}
 	})
 }
