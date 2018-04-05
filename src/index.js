@@ -3,7 +3,7 @@ const findNpmPackageName = require('./find-npm-package-name')
 const changeInlineTags = require('./change-inline-tags')
 
 exports.defineTags = function jsdocPackageTag(dictionary) {
-	dictionary.defineTag('package', {
+	dictionary.defineTag('npmpackage', {
 		mustNotHaveDescription: false,
 		mustNotHaveValue: false,
 		// for block tags
